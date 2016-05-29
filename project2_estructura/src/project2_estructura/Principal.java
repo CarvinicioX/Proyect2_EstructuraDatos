@@ -6,13 +6,17 @@
 package project2_estructura;
 
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 
 /**
  *
  * @author Christian
  */
 public class Principal extends javax.swing.JFrame {
-
+    List caballosBlancos = new List();
+    List caballosNegros = new List();
+    List peonesBlancos = new List();
+    List peonesNegros = new List();
     /**
      * Creates new form Principal
      */
@@ -116,21 +120,51 @@ public class Principal extends javax.swing.JFrame {
 
         jButton1.setText("Peón Negro");
         jButton1.setPreferredSize(new java.awt.Dimension(115, 40));
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jButton2.setText("Caballo Negro");
         jButton2.setPreferredSize(new java.awt.Dimension(110, 40));
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jButton3.setText("Rey Negro");
         jButton3.setPreferredSize(new java.awt.Dimension(110, 40));
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
         jButton4.setText("Peón Blanco");
         jButton4.setPreferredSize(new java.awt.Dimension(115, 40));
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
 
         jButton5.setText("Caballo Blanco");
         jButton5.setPreferredSize(new java.awt.Dimension(115, 40));
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
 
         jButton6.setText("Rey Blanco");
         jButton6.setPreferredSize(new java.awt.Dimension(115, 40));
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
 
         jButton7.setText("Mapear");
 
@@ -140,7 +174,6 @@ public class Principal extends javax.swing.JFrame {
         back.getContentPane().setLayout(null);
 
         B_4.setBackground(new java.awt.Color(0, 0, 0));
-        B_4.setForeground(new java.awt.Color(0, 0, 0));
         B_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         B_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         B_4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -164,7 +197,6 @@ public class Principal extends javax.swing.JFrame {
         C_4.setBounds(100, 200, 50, 50);
 
         D_4.setBackground(new java.awt.Color(0, 0, 0));
-        D_4.setForeground(new java.awt.Color(0, 0, 0));
         D_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         D_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         D_4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -188,7 +220,6 @@ public class Principal extends javax.swing.JFrame {
         E_4.setBounds(200, 200, 50, 50);
 
         F_4.setBackground(new java.awt.Color(0, 0, 0));
-        F_4.setForeground(new java.awt.Color(0, 0, 0));
         F_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         F_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         F_4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -200,7 +231,6 @@ public class Principal extends javax.swing.JFrame {
         F_4.setBounds(250, 200, 50, 50);
 
         H_4.setBackground(new java.awt.Color(0, 0, 0));
-        H_4.setForeground(new java.awt.Color(0, 0, 0));
         H_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         H_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         H_4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -236,7 +266,6 @@ public class Principal extends javax.swing.JFrame {
         H_3.setBounds(350, 250, 50, 50);
 
         G_3.setBackground(new java.awt.Color(0, 0, 0));
-        G_3.setForeground(new java.awt.Color(0, 0, 0));
         G_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         G_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         G_3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -284,7 +313,6 @@ public class Principal extends javax.swing.JFrame {
         A_8.setBounds(0, 0, 50, 50);
 
         E_3.setBackground(new java.awt.Color(0, 0, 0));
-        E_3.setForeground(new java.awt.Color(0, 0, 0));
         E_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         E_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         E_3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -296,7 +324,6 @@ public class Principal extends javax.swing.JFrame {
         E_3.setBounds(200, 250, 50, 50);
 
         B_8.setBackground(new java.awt.Color(0, 0, 0));
-        B_8.setForeground(new java.awt.Color(0, 0, 0));
         B_8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         B_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         B_8.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -308,7 +335,6 @@ public class Principal extends javax.swing.JFrame {
         B_8.setBounds(50, 0, 50, 50);
 
         C_3.setBackground(new java.awt.Color(0, 0, 0));
-        C_3.setForeground(new java.awt.Color(0, 0, 0));
         C_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         C_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         C_3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -344,7 +370,6 @@ public class Principal extends javax.swing.JFrame {
         B_3.setBounds(50, 250, 50, 50);
 
         D_8.setBackground(new java.awt.Color(0, 0, 0));
-        D_8.setForeground(new java.awt.Color(0, 0, 0));
         D_8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         D_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         D_8.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -356,7 +381,6 @@ public class Principal extends javax.swing.JFrame {
         D_8.setBounds(150, 0, 50, 50);
 
         A_3.setBackground(new java.awt.Color(0, 0, 0));
-        A_3.setForeground(new java.awt.Color(0, 0, 0));
         A_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         A_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         A_3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -368,7 +392,6 @@ public class Principal extends javax.swing.JFrame {
         A_3.setBounds(0, 250, 50, 50);
 
         F_8.setBackground(new java.awt.Color(0, 0, 0));
-        F_8.setForeground(new java.awt.Color(0, 0, 0));
         F_8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         F_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         F_8.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -416,7 +439,6 @@ public class Principal extends javax.swing.JFrame {
         G_8.setBounds(300, 0, 50, 50);
 
         H_8.setBackground(new java.awt.Color(0, 0, 0));
-        H_8.setForeground(new java.awt.Color(0, 0, 0));
         H_8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         H_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         H_8.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -440,7 +462,6 @@ public class Principal extends javax.swing.JFrame {
         H_7.setBounds(350, 50, 50, 50);
 
         B_2.setBackground(new java.awt.Color(0, 0, 0));
-        B_2.setForeground(new java.awt.Color(0, 0, 0));
         B_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         B_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         B_2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -464,7 +485,6 @@ public class Principal extends javax.swing.JFrame {
         C_2.setBounds(100, 300, 50, 50);
 
         D_2.setBackground(new java.awt.Color(0, 0, 0));
-        D_2.setForeground(new java.awt.Color(0, 0, 0));
         D_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         D_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         D_2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -488,7 +508,6 @@ public class Principal extends javax.swing.JFrame {
         E_2.setBounds(200, 300, 50, 50);
 
         G_7.setBackground(new java.awt.Color(0, 0, 0));
-        G_7.setForeground(new java.awt.Color(0, 0, 0));
         G_7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         G_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         G_7.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -500,7 +519,6 @@ public class Principal extends javax.swing.JFrame {
         G_7.setBounds(300, 50, 50, 50);
 
         F_2.setBackground(new java.awt.Color(0, 0, 0));
-        F_2.setForeground(new java.awt.Color(0, 0, 0));
         F_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         F_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         F_2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -524,7 +542,6 @@ public class Principal extends javax.swing.JFrame {
         F_7.setBounds(250, 50, 50, 50);
 
         H_2.setBackground(new java.awt.Color(0, 0, 0));
-        H_2.setForeground(new java.awt.Color(0, 0, 0));
         H_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         H_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         H_2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -536,7 +553,6 @@ public class Principal extends javax.swing.JFrame {
         H_2.setBounds(350, 300, 50, 50);
 
         E_7.setBackground(new java.awt.Color(0, 0, 0));
-        E_7.setForeground(new java.awt.Color(0, 0, 0));
         E_7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         E_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         E_7.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -584,7 +600,6 @@ public class Principal extends javax.swing.JFrame {
         H_1.setBounds(350, 350, 50, 50);
 
         C_7.setBackground(new java.awt.Color(0, 0, 0));
-        C_7.setForeground(new java.awt.Color(0, 0, 0));
         C_7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         C_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         C_7.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -596,7 +611,6 @@ public class Principal extends javax.swing.JFrame {
         C_7.setBounds(100, 50, 50, 50);
 
         G_1.setBackground(new java.awt.Color(0, 0, 0));
-        G_1.setForeground(new java.awt.Color(0, 0, 0));
         G_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         G_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         G_1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -632,7 +646,6 @@ public class Principal extends javax.swing.JFrame {
         F_1.setBounds(250, 350, 50, 50);
 
         A_7.setBackground(new java.awt.Color(0, 0, 0));
-        A_7.setForeground(new java.awt.Color(0, 0, 0));
         A_7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         A_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         A_7.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -656,7 +669,6 @@ public class Principal extends javax.swing.JFrame {
         A_6.setBounds(0, 100, 50, 50);
 
         B_6.setBackground(new java.awt.Color(0, 0, 0));
-        B_6.setForeground(new java.awt.Color(0, 0, 0));
         B_6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         B_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         B_6.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -680,7 +692,6 @@ public class Principal extends javax.swing.JFrame {
         C_6.setBounds(100, 100, 50, 50);
 
         E_1.setBackground(new java.awt.Color(0, 0, 0));
-        E_1.setForeground(new java.awt.Color(0, 0, 0));
         E_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         E_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         E_1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -704,7 +715,6 @@ public class Principal extends javax.swing.JFrame {
         D_1.setBounds(150, 350, 50, 50);
 
         C_1.setBackground(new java.awt.Color(0, 0, 0));
-        C_1.setForeground(new java.awt.Color(0, 0, 0));
         C_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         C_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         C_1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -728,7 +738,6 @@ public class Principal extends javax.swing.JFrame {
         B_1.setBounds(50, 350, 50, 50);
 
         D_6.setBackground(new java.awt.Color(0, 0, 0));
-        D_6.setForeground(new java.awt.Color(0, 0, 0));
         D_6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         D_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         D_6.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -740,7 +749,6 @@ public class Principal extends javax.swing.JFrame {
         D_6.setBounds(150, 100, 50, 50);
 
         A_1.setBackground(new java.awt.Color(0, 0, 0));
-        A_1.setForeground(new java.awt.Color(0, 0, 0));
         A_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         A_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         A_1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -764,7 +772,6 @@ public class Principal extends javax.swing.JFrame {
         E_6.setBounds(200, 100, 50, 50);
 
         F_6.setBackground(new java.awt.Color(0, 0, 0));
-        F_6.setForeground(new java.awt.Color(0, 0, 0));
         F_6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         F_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         F_6.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -788,7 +795,6 @@ public class Principal extends javax.swing.JFrame {
         G_6.setBounds(300, 100, 50, 50);
 
         H_6.setBackground(new java.awt.Color(0, 0, 0));
-        H_6.setForeground(new java.awt.Color(0, 0, 0));
         H_6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         H_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         H_6.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -812,7 +818,6 @@ public class Principal extends javax.swing.JFrame {
         H_5.setBounds(350, 150, 50, 50);
 
         G_5.setBackground(new java.awt.Color(0, 0, 0));
-        G_5.setForeground(new java.awt.Color(0, 0, 0));
         G_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         G_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         G_5.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -836,7 +841,6 @@ public class Principal extends javax.swing.JFrame {
         F_5.setBounds(250, 150, 50, 50);
 
         E_5.setBackground(new java.awt.Color(0, 0, 0));
-        E_5.setForeground(new java.awt.Color(0, 0, 0));
         E_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         E_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         E_5.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -872,7 +876,6 @@ public class Principal extends javax.swing.JFrame {
         B_5.setBounds(50, 150, 50, 50);
 
         C_5.setBackground(new java.awt.Color(0, 0, 0));
-        C_5.setForeground(new java.awt.Color(0, 0, 0));
         C_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         C_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         C_5.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -884,7 +887,6 @@ public class Principal extends javax.swing.JFrame {
         C_5.setBounds(100, 150, 50, 50);
 
         A_5.setBackground(new java.awt.Color(0, 0, 0));
-        A_5.setForeground(new java.awt.Color(0, 0, 0));
         A_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/black.jpg"))); // NOI18N
         A_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         A_5.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -987,6 +989,42 @@ public class Principal extends javax.swing.JFrame {
             System.out.println("Yeah");
         }
     }//GEN-LAST:event_A_8MouseClick
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        if (peonesNegros.size()>8) {
+            JOptionPane.showMessageDialog(this, "No se pueden poner mas de 8 peones en el tablero"
+                    , "Limite de Piezas", 0);
+        }
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        if (caballosNegros.size()>2) {
+            JOptionPane.showMessageDialog(this, "No se pueden poner mas de 2 caballos en el tablero"
+                    , "Limite de Piezas", 0);
+        }
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        jButton3.setEnabled(false);
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        if (peonesBlancos.size()>8) {
+            JOptionPane.showMessageDialog(this, "No se pueden poner mas de 8 peones en el tablero"
+                    , "Limite de Piezas", 0);
+        }
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        if (caballosBlancos.size()>2) {
+            JOptionPane.showMessageDialog(this, "No se pueden poner mas de 2 caballos en el tablero"
+                    , "Limite de Piezas", 0);
+        }
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        jButton6.setEnabled(false);
+    }//GEN-LAST:event_jButton6ActionPerformed
 
     /**
      * @param args the command line arguments
