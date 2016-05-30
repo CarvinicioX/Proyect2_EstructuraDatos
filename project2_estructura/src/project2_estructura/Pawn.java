@@ -6,8 +6,8 @@ package project2_estructura;
  */
 public class Pawn extends Piece {
 
-    public Pawn(int x, int y) {
-        super(x, y);
+    public Pawn(int x, int y, boolean color) {
+        super(x, y, color);
     }
 
     @Override

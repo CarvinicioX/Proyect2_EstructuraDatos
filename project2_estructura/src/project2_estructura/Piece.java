@@ -8,10 +8,12 @@ public abstract class Piece {
 
     protected int x;
     protected int y;
+    protected boolean color;
 
-    public Piece(int x, int y) {
+    public Piece(int x, int y, boolean color) {
         this.x = x;
         this.y = y;
+        this.color = color;
     }
 
     public int getX() {

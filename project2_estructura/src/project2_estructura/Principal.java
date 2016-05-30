@@ -1169,11 +1169,26 @@ public class Principal extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_removePieceActionPerformed
 
-    private Board generar() {
+    private Board generate() {
+        Board Board = new Board();
         Component[] Labels = this.back.getComponents();
-        String name = "";
-        ImageIcon piece = null;
+        int x, y;
         for (Component Label: Labels) {
+            x = Integer.parseInt(Label.getName().split("")[0]);
+            y = Integer.parseInt(Label.getName().split("")[1]);
+            if ((ImageIcon) ((JLabel) Label).getIcon() == this.kingWhite) {
+                Board.addPiece(new King(x, y, true));
+            } else if ((ImageIcon) ((JLabel) Label).getIcon() == this.kingBlack) {
+                Board.addPiece(new King(x, y, false));
+            } else if ((ImageIcon) ((JLabel) Label).getIcon() == this.knightWhite) {
+                Board.addPiece(new Knight(x, y, true));
+            } else if ((ImageIcon) ((JLabel) Label).getIcon() == this.knightBlack) {
+                Board.addPiece(new Knight(x, y, false));
+            } else if ((ImageIcon) ((JLabel) Label).getIcon() == this.pawnWhite) {
+                Board.addPiece(new Pawn(x, y, true));
+            } else if ((ImageIcon) ((JLabel) Label).getIcon() == this.pawnBlack) {
+                Board.addPiece(new Pawn(x, y, false));
+            }
             
         }
         return null;
@@ -1199,7 +1214,6 @@ public class Principal extends javax.swing.JFrame {
                 Pawnb++;
             }
         }
-        System.out.println(Kingw + "KingWhite\n" + Kingb + "KingBlack\n" + Knightw + "KnightWhite\n" + Knightb + "KnightBlack\n" + Pawnw + "PawnWhite\n" + Pawnb + "PawnBlack\n");
         switch (piece) {
             case "KingWhite":{
                 if (Kingw == 0) {

@@ -6,8 +6,8 @@ package project2_estructura;
  */
 public class Knight extends Piece {
 
-    public Knight(int x, int y) {
-        super(x, y);
+    public Knight(int x, int y, boolean color) {
+        super(x, y, color);
     }
 
     @Override
