@@ -63,71 +63,71 @@ public class Principal extends javax.swing.JFrame {
         jButton6 = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
         jComboBox1 = new javax.swing.JComboBox();
-        Back = new javax.swing.JInternalFrame();
-        E_7 = new javax.swing.JLabel();
-        G_2 = new javax.swing.JLabel();
-        D_7 = new javax.swing.JLabel();
-        H_1 = new javax.swing.JLabel();
-        C_7 = new javax.swing.JLabel();
-        G_1 = new javax.swing.JLabel();
-        B_7 = new javax.swing.JLabel();
-        F_1 = new javax.swing.JLabel();
+        back = new javax.swing.JPanel();
+        A_8 = new javax.swing.JLabel();
         A_7 = new javax.swing.JLabel();
         A_6 = new javax.swing.JLabel();
-        B_6 = new javax.swing.JLabel();
-        B_4 = new javax.swing.JLabel();
-        C_6 = new javax.swing.JLabel();
-        C_4 = new javax.swing.JLabel();
-        E_1 = new javax.swing.JLabel();
-        D_4 = new javax.swing.JLabel();
-        D_1 = new javax.swing.JLabel();
-        E_4 = new javax.swing.JLabel();
-        C_1 = new javax.swing.JLabel();
-        F_4 = new javax.swing.JLabel();
-        B_1 = new javax.swing.JLabel();
-        H_4 = new javax.swing.JLabel();
-        G_4 = new javax.swing.JLabel();
-        H_3 = new javax.swing.JLabel();
-        G_3 = new javax.swing.JLabel();
-        D_6 = new javax.swing.JLabel();
-        A_1 = new javax.swing.JLabel();
-        E_6 = new javax.swing.JLabel();
-        F_6 = new javax.swing.JLabel();
-        F_3 = new javax.swing.JLabel();
-        G_6 = new javax.swing.JLabel();
-        D_3 = new javax.swing.JLabel();
-        H_6 = new javax.swing.JLabel();
-        A_8 = new javax.swing.JLabel();
-        H_5 = new javax.swing.JLabel();
-        E_3 = new javax.swing.JLabel();
-        G_5 = new javax.swing.JLabel();
-        B_8 = new javax.swing.JLabel();
-        F_5 = new javax.swing.JLabel();
-        C_3 = new javax.swing.JLabel();
-        E_5 = new javax.swing.JLabel();
-        C_8 = new javax.swing.JLabel();
-        B_3 = new javax.swing.JLabel();
-        D_8 = new javax.swing.JLabel();
-        A_3 = new javax.swing.JLabel();
-        D_5 = new javax.swing.JLabel();
-        B_5 = new javax.swing.JLabel();
-        C_5 = new javax.swing.JLabel();
         A_5 = new javax.swing.JLabel();
-        F_8 = new javax.swing.JLabel();
         A_4 = new javax.swing.JLabel();
+        A_3 = new javax.swing.JLabel();
         A_2 = new javax.swing.JLabel();
+        A_1 = new javax.swing.JLabel();
+        B_8 = new javax.swing.JLabel();
+        B_7 = new javax.swing.JLabel();
+        B_6 = new javax.swing.JLabel();
+        B_5 = new javax.swing.JLabel();
+        B_4 = new javax.swing.JLabel();
+        B_3 = new javax.swing.JLabel();
+        B_2 = new javax.swing.JLabel();
+        B_1 = new javax.swing.JLabel();
+        C_8 = new javax.swing.JLabel();
+        C_7 = new javax.swing.JLabel();
+        C_6 = new javax.swing.JLabel();
+        C_5 = new javax.swing.JLabel();
+        C_4 = new javax.swing.JLabel();
+        C_3 = new javax.swing.JLabel();
+        C_2 = new javax.swing.JLabel();
+        C_1 = new javax.swing.JLabel();
+        D_8 = new javax.swing.JLabel();
+        D_7 = new javax.swing.JLabel();
+        D_6 = new javax.swing.JLabel();
+        D_5 = new javax.swing.JLabel();
+        D_4 = new javax.swing.JLabel();
+        D_3 = new javax.swing.JLabel();
+        D_2 = new javax.swing.JLabel();
+        D_1 = new javax.swing.JLabel();
         E_8 = new javax.swing.JLabel();
+        E_7 = new javax.swing.JLabel();
+        E_6 = new javax.swing.JLabel();
+        E_5 = new javax.swing.JLabel();
+        E_4 = new javax.swing.JLabel();
+        E_3 = new javax.swing.JLabel();
+        E_2 = new javax.swing.JLabel();
+        E_1 = new javax.swing.JLabel();
+        F_8 = new javax.swing.JLabel();
+        F_7 = new javax.swing.JLabel();
+        F_6 = new javax.swing.JLabel();
+        F_5 = new javax.swing.JLabel();
+        F_4 = new javax.swing.JLabel();
+        F_3 = new javax.swing.JLabel();
+        F_2 = new javax.swing.JLabel();
+        F_1 = new javax.swing.JLabel();
         G_8 = new javax.swing.JLabel();
+        G_7 = new javax.swing.JLabel();
+        G_6 = new javax.swing.JLabel();
+        G_5 = new javax.swing.JLabel();
+        G_4 = new javax.swing.JLabel();
+        G_3 = new javax.swing.JLabel();
+        G_2 = new javax.swing.JLabel();
+        G_1 = new javax.swing.JLabel();
         H_8 = new javax.swing.JLabel();
         H_7 = new javax.swing.JLabel();
-        B_2 = new javax.swing.JLabel();
-        C_2 = new javax.swing.JLabel();
-        D_2 = new javax.swing.JLabel();
-        E_2 = new javax.swing.JLabel();
-        G_7 = new javax.swing.JLabel();
-        F_2 = new javax.swing.JLabel();
-        F_7 = new javax.swing.JLabel();
+        H_6 = new javax.swing.JLabel();
+        H_5 = new javax.swing.JLabel();
+        H_4 = new javax.swing.JLabel();
+        H_3 = new javax.swing.JLabel();
         H_2 = new javax.swing.JLabel();
+        H_1 = new javax.swing.JLabel();
         background = new javax.swing.JLabel();
 
         addPiece.setText("Agregar");
@@ -141,24 +141,54 @@ public class Principal extends javax.swing.JFrame {
         addPiece.add(addWhiteKing);
 
         addWhiteKnight.setText("Caballo Blanco");
+        addWhiteKnight.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                addWhiteKnightActionPerformed(evt);
+            }
+        });
         addPiece.add(addWhiteKnight);
 
         addWhitePawn.setText("Peon Blanco");
+        addWhitePawn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                addWhitePawnActionPerformed(evt);
+            }
+        });
         addPiece.add(addWhitePawn);
         addPiece.add(jSeparator1);
 
         addBlackKing.setText("Rey Negro");
+        addBlackKing.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                addBlackKingActionPerformed(evt);
+            }
+        });
         addPiece.add(addBlackKing);
 
         addBlackKnight.setText("Caballo Negro");
+        addBlackKnight.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                addBlackKnightActionPerformed(evt);
+            }
+        });
         addPiece.add(addBlackKnight);
 
         addBlackPawn.setText("Peon Negro");
+        addBlackPawn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                addBlackPawnActionPerformed(evt);
+            }
+        });
         addPiece.add(addBlackPawn);
 
         menu.add(addPiece);
 
         removePiece.setText("Quitar");
+        removePiece.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                removePieceActionPerformed(evt);
+            }
+        });
         menu.add(removePiece);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -217,751 +247,748 @@ public class Principal extends javax.swing.JFrame {
 
         jButton7.setText("Mapear");
 
-        Back.setTitle("Board");
-        Back.setFrameIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/Kingb.png"))); // NOI18N
-        Back.setVisible(true);
-        Back.getContentPane().setLayout(null);
+        back.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        E_7.setBackground(new java.awt.Color(255, 255, 255));
-        E_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        E_7.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        E_7.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(E_7);
-        E_7.setBounds(200, 50, 50, 50);
-
-        G_2.setBackground(new java.awt.Color(0, 0, 0));
-        G_2.setForeground(new java.awt.Color(255, 255, 255));
-        G_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        G_2.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        G_2.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(G_2);
-        G_2.setBounds(300, 300, 50, 50);
-
-        D_7.setBackground(new java.awt.Color(0, 0, 0));
-        D_7.setForeground(new java.awt.Color(255, 255, 255));
-        D_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        D_7.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        D_7.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(D_7);
-        D_7.setBounds(150, 50, 50, 50);
-
-        H_1.setBackground(new java.awt.Color(0, 0, 0));
-        H_1.setForeground(new java.awt.Color(255, 255, 255));
-        H_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        H_1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        H_1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(H_1);
-        H_1.setBounds(350, 350, 50, 50);
-
-        C_7.setBackground(new java.awt.Color(255, 255, 255));
-        C_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        C_7.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        C_7.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(C_7);
-        C_7.setBounds(100, 50, 50, 50);
-
-        G_1.setBackground(new java.awt.Color(255, 255, 255));
-        G_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        G_1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        G_1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(G_1);
-        G_1.setBounds(300, 350, 50, 50);
-
-        B_7.setBackground(new java.awt.Color(0, 0, 0));
-        B_7.setForeground(new java.awt.Color(255, 255, 255));
-        B_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        B_7.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        B_7.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(B_7);
-        B_7.setBounds(50, 50, 50, 50);
-
-        F_1.setBackground(new java.awt.Color(0, 0, 0));
-        F_1.setForeground(new java.awt.Color(255, 255, 255));
-        F_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        F_1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        F_1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(F_1);
-        F_1.setBounds(250, 350, 50, 50);
-
-        A_7.setBackground(new java.awt.Color(255, 255, 255));
-        A_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        A_7.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        A_7.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(A_7);
-        A_7.setBounds(0, 50, 50, 50);
-
-        A_6.setBackground(new java.awt.Color(0, 0, 0));
-        A_6.setForeground(new java.awt.Color(255, 255, 255));
-        A_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        A_6.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        A_6.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(A_6);
-        A_6.setBounds(0, 100, 50, 50);
-
-        B_6.setBackground(new java.awt.Color(255, 255, 255));
-        B_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        B_6.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        B_6.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(B_6);
-        B_6.setBounds(50, 100, 50, 50);
-
-        B_4.setBackground(new java.awt.Color(255, 255, 255));
-        B_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        B_4.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        B_4.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(B_4);
-        B_4.setBounds(50, 200, 50, 50);
-
-        C_6.setBackground(new java.awt.Color(0, 0, 0));
-        C_6.setForeground(new java.awt.Color(255, 255, 255));
-        C_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        C_6.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        C_6.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(C_6);
-        C_6.setBounds(100, 100, 50, 50);
-
-        C_4.setBackground(new java.awt.Color(0, 0, 0));
-        C_4.setForeground(new java.awt.Color(255, 255, 255));
-        C_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        C_4.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        C_4.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(C_4);
-        C_4.setBounds(100, 200, 50, 50);
-
-        E_1.setBackground(new java.awt.Color(255, 255, 255));
-        E_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        E_1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        E_1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(E_1);
-        E_1.setBounds(200, 350, 50, 50);
-
-        D_4.setBackground(new java.awt.Color(255, 255, 255));
-        D_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        D_4.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        D_4.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(D_4);
-        D_4.setBounds(150, 200, 50, 50);
-
-        D_1.setBackground(new java.awt.Color(0, 0, 0));
-        D_1.setForeground(new java.awt.Color(255, 255, 255));
-        D_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        D_1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        D_1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(D_1);
-        D_1.setBounds(150, 350, 50, 50);
-
-        E_4.setBackground(new java.awt.Color(0, 0, 0));
-        E_4.setForeground(new java.awt.Color(255, 255, 255));
-        E_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        E_4.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        E_4.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(E_4);
-        E_4.setBounds(200, 200, 50, 50);
-
-        C_1.setBackground(new java.awt.Color(255, 255, 255));
-        C_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        C_1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        C_1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(C_1);
-        C_1.setBounds(100, 350, 50, 50);
-
-        F_4.setBackground(new java.awt.Color(255, 255, 255));
-        F_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        F_4.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        F_4.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(F_4);
-        F_4.setBounds(250, 200, 50, 50);
-
-        B_1.setBackground(new java.awt.Color(0, 0, 0));
-        B_1.setForeground(new java.awt.Color(255, 255, 255));
-        B_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        B_1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        B_1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(B_1);
-        B_1.setBounds(50, 350, 50, 50);
-
-        H_4.setBackground(new java.awt.Color(255, 255, 255));
-        H_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        H_4.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        H_4.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(H_4);
-        H_4.setBounds(350, 200, 50, 50);
-
-        G_4.setBackground(new java.awt.Color(0, 0, 0));
-        G_4.setForeground(new java.awt.Color(255, 255, 255));
-        G_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        G_4.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        G_4.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(G_4);
-        G_4.setBounds(300, 200, 50, 50);
-
-        H_3.setBackground(new java.awt.Color(0, 0, 0));
-        H_3.setForeground(new java.awt.Color(255, 255, 255));
-        H_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        H_3.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        H_3.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(H_3);
-        H_3.setBounds(350, 250, 50, 50);
-
-        G_3.setBackground(new java.awt.Color(255, 255, 255));
-        G_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        G_3.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        G_3.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(G_3);
-        G_3.setBounds(300, 250, 50, 50);
-
-        D_6.setBackground(new java.awt.Color(255, 255, 255));
-        D_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        D_6.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        D_6.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(D_6);
-        D_6.setBounds(150, 100, 50, 50);
-
-        A_1.setBackground(new java.awt.Color(255, 255, 255));
-        A_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        A_1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        A_1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(A_1);
-        A_1.setBounds(0, 350, 50, 50);
-
-        E_6.setBackground(new java.awt.Color(0, 0, 0));
-        E_6.setForeground(new java.awt.Color(255, 255, 255));
-        E_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        E_6.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        E_6.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(E_6);
-        E_6.setBounds(200, 100, 50, 50);
-
-        F_6.setBackground(new java.awt.Color(255, 255, 255));
-        F_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        F_6.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        F_6.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(F_6);
-        F_6.setBounds(250, 100, 50, 50);
-
-        F_3.setBackground(new java.awt.Color(0, 0, 0));
-        F_3.setForeground(new java.awt.Color(255, 255, 255));
-        F_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        F_3.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        F_3.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(F_3);
-        F_3.setBounds(250, 250, 50, 50);
-
-        G_6.setBackground(new java.awt.Color(0, 0, 0));
-        G_6.setForeground(new java.awt.Color(255, 255, 255));
-        G_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        G_6.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        G_6.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(G_6);
-        G_6.setBounds(300, 100, 50, 50);
-
-        D_3.setBackground(new java.awt.Color(0, 0, 0));
-        D_3.setForeground(new java.awt.Color(255, 255, 255));
-        D_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        D_3.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        D_3.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(D_3);
-        D_3.setBounds(150, 250, 50, 50);
-
-        H_6.setBackground(new java.awt.Color(255, 255, 255));
-        H_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        H_6.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        H_6.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(H_6);
-        H_6.setBounds(350, 100, 50, 50);
-
-        A_8.setBackground(new java.awt.Color(0, 0, 0));
+        A_8.setName("A8");
+        A_8.setBackground(new java.awt.Color(255, 255, 255));
         A_8.setForeground(new java.awt.Color(255, 255, 255));
         A_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        A_8.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        A_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         A_8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 A_8MouseClicked(evt);
             }
         });
-        Back.getContentPane().add(A_8);
-        A_8.setBounds(0, 0, 50, 50);
+        back.add(A_8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 50, 50));
 
-        H_5.setBackground(new java.awt.Color(0, 0, 0));
-        H_5.setForeground(new java.awt.Color(255, 255, 255));
-        H_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        H_5.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        H_5.addMouseListener(new java.awt.event.MouseAdapter() {
+        A_7.setName("A7");
+        A_7.setBackground(new java.awt.Color(0, 0, 0));
+        A_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        A_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        A_7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 A_8MouseClicked(evt);
             }
         });
-        Back.getContentPane().add(H_5);
-        H_5.setBounds(350, 150, 50, 50);
+        back.add(A_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 50, 50));
 
-        E_3.setBackground(new java.awt.Color(255, 255, 255));
-        E_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        E_3.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        E_3.addMouseListener(new java.awt.event.MouseAdapter() {
+        A_6.setName("A6");
+        A_6.setBackground(new java.awt.Color(255, 255, 255));
+        A_6.setForeground(new java.awt.Color(255, 255, 255));
+        A_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        A_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        A_6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 A_8MouseClicked(evt);
             }
         });
-        Back.getContentPane().add(E_3);
-        E_3.setBounds(200, 250, 50, 50);
+        back.add(A_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 50, 50));
 
-        G_5.setBackground(new java.awt.Color(255, 255, 255));
-        G_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        G_5.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        G_5.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(G_5);
-        G_5.setBounds(300, 150, 50, 50);
-
-        B_8.setBackground(new java.awt.Color(255, 255, 255));
-        B_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        B_8.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        B_8.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(B_8);
-        B_8.setBounds(50, 0, 50, 50);
-
-        F_5.setBackground(new java.awt.Color(0, 0, 0));
-        F_5.setForeground(new java.awt.Color(255, 255, 255));
-        F_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        F_5.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        F_5.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(F_5);
-        F_5.setBounds(250, 150, 50, 50);
-
-        C_3.setBackground(new java.awt.Color(255, 255, 255));
-        C_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        C_3.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        C_3.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(C_3);
-        C_3.setBounds(100, 250, 50, 50);
-
-        E_5.setBackground(new java.awt.Color(255, 255, 255));
-        E_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        E_5.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        E_5.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(E_5);
-        E_5.setBounds(200, 150, 50, 50);
-
-        C_8.setBackground(new java.awt.Color(0, 0, 0));
-        C_8.setForeground(new java.awt.Color(255, 255, 255));
-        C_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        C_8.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        C_8.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(C_8);
-        C_8.setBounds(100, 0, 50, 50);
-
-        B_3.setBackground(new java.awt.Color(0, 0, 0));
-        B_3.setForeground(new java.awt.Color(255, 255, 255));
-        B_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        B_3.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        B_3.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(B_3);
-        B_3.setBounds(50, 250, 50, 50);
-
-        D_8.setBackground(new java.awt.Color(255, 255, 255));
-        D_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        D_8.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        D_8.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(D_8);
-        D_8.setBounds(150, 0, 50, 50);
-
-        A_3.setBackground(new java.awt.Color(255, 255, 255));
-        A_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        A_3.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        A_3.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(A_3);
-        A_3.setBounds(0, 250, 50, 50);
-
-        D_5.setBackground(new java.awt.Color(0, 0, 0));
-        D_5.setForeground(new java.awt.Color(255, 255, 255));
-        D_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        D_5.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        D_5.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(D_5);
-        D_5.setBounds(150, 150, 50, 50);
-
-        B_5.setBackground(new java.awt.Color(0, 0, 0));
-        B_5.setForeground(new java.awt.Color(255, 255, 255));
-        B_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        B_5.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        B_5.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(B_5);
-        B_5.setBounds(50, 150, 50, 50);
-
-        C_5.setBackground(new java.awt.Color(255, 255, 255));
-        C_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        C_5.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        C_5.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(C_5);
-        C_5.setBounds(100, 150, 50, 50);
-
-        A_5.setBackground(new java.awt.Color(255, 255, 255));
+        A_5.setName("A5");
+        A_5.setBackground(new java.awt.Color(0, 0, 0));
         A_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        A_5.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        A_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         A_5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 A_8MouseClicked(evt);
             }
         });
-        Back.getContentPane().add(A_5);
-        A_5.setBounds(0, 150, 50, 50);
+        back.add(A_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 50, 50));
 
-        F_8.setBackground(new java.awt.Color(255, 255, 255));
-        F_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        F_8.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        F_8.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                A_8MouseClicked(evt);
-            }
-        });
-        Back.getContentPane().add(F_8);
-        F_8.setBounds(250, 0, 50, 50);
-
-        A_4.setBackground(new java.awt.Color(0, 0, 0));
+        A_4.setName("A4");
+        A_4.setBackground(new java.awt.Color(255, 255, 255));
         A_4.setForeground(new java.awt.Color(255, 255, 255));
         A_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        A_4.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        A_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         A_4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 A_8MouseClicked(evt);
             }
         });
-        Back.getContentPane().add(A_4);
-        A_4.setBounds(0, 200, 50, 50);
+        back.add(A_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 200, 50, 50));
 
-        A_2.setBackground(new java.awt.Color(0, 0, 0));
+        A_3.setName("A3");
+        A_3.setBackground(new java.awt.Color(0, 0, 0));
+        A_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        A_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        A_3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(A_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, 50, 50));
+
+        A_2.setName("A2");
+        A_2.setBackground(new java.awt.Color(255, 255, 255));
         A_2.setForeground(new java.awt.Color(255, 255, 255));
         A_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        A_2.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        A_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         A_2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 A_8MouseClicked(evt);
             }
         });
-        Back.getContentPane().add(A_2);
-        A_2.setBounds(0, 300, 50, 50);
+        back.add(A_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 50, 50));
 
-        E_8.setBackground(new java.awt.Color(0, 0, 0));
-        E_8.setForeground(new java.awt.Color(255, 255, 255));
-        E_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        E_8.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        E_8.addMouseListener(new java.awt.event.MouseAdapter() {
+        A_1.setName("A1");
+        A_1.setBackground(new java.awt.Color(0, 0, 0));
+        A_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        A_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        A_1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 A_8MouseClicked(evt);
             }
         });
-        Back.getContentPane().add(E_8);
-        E_8.setBounds(200, 0, 50, 50);
+        back.add(A_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 350, 50, 50));
 
-        G_8.setBackground(new java.awt.Color(0, 0, 0));
-        G_8.setForeground(new java.awt.Color(255, 255, 255));
-        G_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        G_8.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        G_8.addMouseListener(new java.awt.event.MouseAdapter() {
+        B_8.setName("B8");
+        B_8.setBackground(new java.awt.Color(0, 0, 0));
+        B_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        B_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        B_8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 A_8MouseClicked(evt);
             }
         });
-        Back.getContentPane().add(G_8);
-        G_8.setBounds(300, 0, 50, 50);
+        back.add(B_8, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, 50, 50));
 
-        H_8.setBackground(new java.awt.Color(255, 255, 255));
-        H_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        H_8.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        H_8.addMouseListener(new java.awt.event.MouseAdapter() {
+        B_7.setName("B7");
+        B_7.setBackground(new java.awt.Color(255, 255, 255));
+        B_7.setForeground(new java.awt.Color(255, 255, 255));
+        B_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        B_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        B_7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 A_8MouseClicked(evt);
             }
         });
-        Back.getContentPane().add(H_8);
-        H_8.setBounds(350, 0, 50, 50);
+        back.add(B_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 50, 50, 50));
 
-        H_7.setBackground(new java.awt.Color(0, 0, 0));
-        H_7.setForeground(new java.awt.Color(255, 255, 255));
-        H_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        H_7.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        H_7.addMouseListener(new java.awt.event.MouseAdapter() {
+        B_6.setName("B6");
+        B_6.setBackground(new java.awt.Color(0, 0, 0));
+        B_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        B_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        B_6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 A_8MouseClicked(evt);
             }
         });
-        Back.getContentPane().add(H_7);
-        H_7.setBounds(350, 50, 50, 50);
+        back.add(B_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, 50, 50));
 
-        B_2.setBackground(new java.awt.Color(255, 255, 255));
+        B_5.setName("B5");
+        B_5.setBackground(new java.awt.Color(255, 255, 255));
+        B_5.setForeground(new java.awt.Color(255, 255, 255));
+        B_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        B_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        B_5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(B_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, 50, 50));
+
+        B_4.setName("B4");
+        B_4.setBackground(new java.awt.Color(0, 0, 0));
+        B_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        B_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        B_4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(B_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 200, 50, 50));
+
+        B_3.setName("B3");
+        B_3.setBackground(new java.awt.Color(255, 255, 255));
+        B_3.setForeground(new java.awt.Color(255, 255, 255));
+        B_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        B_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        B_3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(B_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 250, 50, 50));
+
+        B_2.setName("B2");
+        B_2.setBackground(new java.awt.Color(0, 0, 0));
         B_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        B_2.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        B_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         B_2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 A_8MouseClicked(evt);
             }
         });
-        Back.getContentPane().add(B_2);
-        B_2.setBounds(50, 300, 50, 50);
+        back.add(B_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 300, 50, 50));
 
-        C_2.setBackground(new java.awt.Color(0, 0, 0));
+        B_1.setName("B1");
+        B_1.setBackground(new java.awt.Color(255, 255, 255));
+        B_1.setForeground(new java.awt.Color(255, 255, 255));
+        B_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        B_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        B_1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(B_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 350, 50, 50));
+
+        C_8.setName("C8");
+        C_8.setBackground(new java.awt.Color(255, 255, 255));
+        C_8.setForeground(new java.awt.Color(255, 255, 255));
+        C_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        C_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        C_8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(C_8, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 0, 50, 50));
+
+        C_7.setName("C7");
+        C_7.setBackground(new java.awt.Color(0, 0, 0));
+        C_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        C_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        C_7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(C_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, 50, 50));
+
+        C_6.setName("C6");
+        C_6.setBackground(new java.awt.Color(255, 255, 255));
+        C_6.setForeground(new java.awt.Color(255, 255, 255));
+        C_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        C_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        C_6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(C_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 100, 50, 50));
+
+        C_5.setName("C5");
+        C_5.setBackground(new java.awt.Color(0, 0, 0));
+        C_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        C_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        C_5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(C_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 150, 50, 50));
+
+        C_4.setName("C4");
+        C_4.setBackground(new java.awt.Color(255, 255, 255));
+        C_4.setForeground(new java.awt.Color(255, 255, 255));
+        C_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        C_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        C_4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(C_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, 50, 50));
+
+        C_3.setName("C3");
+        C_3.setBackground(new java.awt.Color(0, 0, 0));
+        C_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        C_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        C_3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(C_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 250, 50, 50));
+
+        C_2.setName("C2");
+        C_2.setBackground(new java.awt.Color(255, 255, 255));
         C_2.setForeground(new java.awt.Color(255, 255, 255));
         C_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        C_2.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        C_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         C_2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 A_8MouseClicked(evt);
             }
         });
-        Back.getContentPane().add(C_2);
-        C_2.setBounds(100, 300, 50, 50);
+        back.add(C_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 300, 50, 50));
 
-        D_2.setBackground(new java.awt.Color(255, 255, 255));
+        C_1.setName("C1");
+        C_1.setBackground(new java.awt.Color(0, 0, 0));
+        C_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        C_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        C_1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(C_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 350, 50, 50));
+
+        D_8.setName("D8");
+        D_8.setBackground(new java.awt.Color(0, 0, 0));
+        D_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        D_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        D_8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(D_8, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 0, 50, 50));
+
+        D_7.setName("D7");
+        D_7.setBackground(new java.awt.Color(255, 255, 255));
+        D_7.setForeground(new java.awt.Color(255, 255, 255));
+        D_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        D_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        D_7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(D_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 50, 50, 50));
+
+        D_6.setName("D6");
+        D_6.setBackground(new java.awt.Color(0, 0, 0));
+        D_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        D_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        D_6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(D_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 100, 50, 50));
+
+        D_5.setName("D5");
+        D_5.setBackground(new java.awt.Color(255, 255, 255));
+        D_5.setForeground(new java.awt.Color(255, 255, 255));
+        D_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        D_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        D_5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(D_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 150, 50, 50));
+
+        D_4.setName("D4");
+        D_4.setBackground(new java.awt.Color(0, 0, 0));
+        D_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        D_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        D_4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(D_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 200, 50, 50));
+
+        D_3.setName("D3");
+        D_3.setBackground(new java.awt.Color(255, 255, 255));
+        D_3.setForeground(new java.awt.Color(255, 255, 255));
+        D_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        D_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        D_3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(D_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 250, 50, 50));
+
+        D_2.setName("D2");
+        D_2.setBackground(new java.awt.Color(0, 0, 0));
         D_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        D_2.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        D_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         D_2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 A_8MouseClicked(evt);
             }
         });
-        Back.getContentPane().add(D_2);
-        D_2.setBounds(150, 300, 50, 50);
+        back.add(D_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 300, 50, 50));
 
-        E_2.setBackground(new java.awt.Color(0, 0, 0));
+        D_1.setName("D1");
+        D_1.setBackground(new java.awt.Color(255, 255, 255));
+        D_1.setForeground(new java.awt.Color(255, 255, 255));
+        D_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        D_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        D_1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(D_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 350, 50, 50));
+
+        E_8.setName("E8");
+        E_8.setBackground(new java.awt.Color(255, 255, 255));
+        E_8.setForeground(new java.awt.Color(255, 255, 255));
+        E_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        E_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        E_8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(E_8, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 0, 50, 50));
+
+        E_7.setName("E7");
+        E_7.setBackground(new java.awt.Color(0, 0, 0));
+        E_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        E_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        E_7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(E_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 50, 50, 50));
+
+        E_6.setName("E6");
+        E_6.setBackground(new java.awt.Color(255, 255, 255));
+        E_6.setForeground(new java.awt.Color(255, 255, 255));
+        E_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        E_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        E_6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(E_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 100, 50, 50));
+
+        E_5.setName("E5");
+        E_5.setBackground(new java.awt.Color(0, 0, 0));
+        E_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        E_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        E_5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(E_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 150, 50, 50));
+
+        E_4.setName("E4");
+        E_4.setBackground(new java.awt.Color(255, 255, 255));
+        E_4.setForeground(new java.awt.Color(255, 255, 255));
+        E_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        E_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        E_4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(E_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 200, 50, 50));
+
+        E_3.setName("E3");
+        E_3.setBackground(new java.awt.Color(0, 0, 0));
+        E_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        E_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        E_3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(E_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 250, 50, 50));
+
+        E_2.setName("E2");
+        E_2.setBackground(new java.awt.Color(255, 255, 255));
         E_2.setForeground(new java.awt.Color(255, 255, 255));
         E_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        E_2.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        E_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         E_2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 A_8MouseClicked(evt);
             }
         });
-        Back.getContentPane().add(E_2);
-        E_2.setBounds(200, 300, 50, 50);
+        back.add(E_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 300, 50, 50));
 
-        G_7.setBackground(new java.awt.Color(255, 255, 255));
-        G_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        G_7.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        G_7.addMouseListener(new java.awt.event.MouseAdapter() {
+        E_1.setName("E1");
+        E_1.setBackground(new java.awt.Color(0, 0, 0));
+        E_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        E_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        E_1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 A_8MouseClicked(evt);
             }
         });
-        Back.getContentPane().add(G_7);
-        G_7.setBounds(300, 50, 50, 50);
+        back.add(E_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 350, 50, 50));
 
-        F_2.setBackground(new java.awt.Color(255, 255, 255));
-        F_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        F_2.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        F_2.addMouseListener(new java.awt.event.MouseAdapter() {
+        F_8.setName("F8");
+        F_8.setBackground(new java.awt.Color(0, 0, 0));
+        F_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        F_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        F_8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 A_8MouseClicked(evt);
             }
         });
-        Back.getContentPane().add(F_2);
-        F_2.setBounds(250, 300, 50, 50);
+        back.add(F_8, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 0, 50, 50));
 
-        F_7.setBackground(new java.awt.Color(0, 0, 0));
+        F_7.setName("F7");
+        F_7.setBackground(new java.awt.Color(255, 255, 255));
         F_7.setForeground(new java.awt.Color(255, 255, 255));
         F_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        F_7.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        F_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         F_7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 A_8MouseClicked(evt);
             }
         });
-        Back.getContentPane().add(F_7);
-        F_7.setBounds(250, 50, 50, 50);
+        back.add(F_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 50, 50, 50));
 
-        H_2.setBackground(new java.awt.Color(255, 255, 255));
+        F_6.setName("F6");
+        F_6.setBackground(new java.awt.Color(0, 0, 0));
+        F_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        F_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        F_6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(F_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 100, 50, 50));
+
+        F_5.setName("F5");
+        F_5.setBackground(new java.awt.Color(255, 255, 255));
+        F_5.setForeground(new java.awt.Color(255, 255, 255));
+        F_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        F_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        F_5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(F_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 150, 50, 50));
+
+        F_4.setName("F4");
+        F_4.setBackground(new java.awt.Color(0, 0, 0));
+        F_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        F_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        F_4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(F_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 200, 50, 50));
+
+        F_3.setName("F3");
+        F_3.setBackground(new java.awt.Color(255, 255, 255));
+        F_3.setForeground(new java.awt.Color(255, 255, 255));
+        F_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        F_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        F_3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(F_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 250, 50, 50));
+
+        F_2.setName("F2");
+        F_2.setBackground(new java.awt.Color(0, 0, 0));
+        F_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        F_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        F_2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(F_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 300, 50, 50));
+
+        F_1.setName("F1");
+        F_1.setBackground(new java.awt.Color(255, 255, 255));
+        F_1.setForeground(new java.awt.Color(255, 255, 255));
+        F_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        F_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        F_1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(F_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 350, 50, 50));
+
+        G_8.setName("G8");
+        G_8.setBackground(new java.awt.Color(255, 255, 255));
+        G_8.setForeground(new java.awt.Color(255, 255, 255));
+        G_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        G_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        G_8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(G_8, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 0, 50, 50));
+
+        G_7.setName("G7");
+        G_7.setBackground(new java.awt.Color(0, 0, 0));
+        G_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        G_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        G_7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(G_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 50, 50, 50));
+
+        G_6.setName("G6");
+        G_6.setBackground(new java.awt.Color(255, 255, 255));
+        G_6.setForeground(new java.awt.Color(255, 255, 255));
+        G_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        G_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        G_6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(G_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 100, 50, 50));
+
+        G_5.setName("G5");
+        G_5.setBackground(new java.awt.Color(0, 0, 0));
+        G_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        G_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        G_5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(G_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 150, 50, 50));
+
+        G_4.setName("G4");
+        G_4.setBackground(new java.awt.Color(255, 255, 255));
+        G_4.setForeground(new java.awt.Color(255, 255, 255));
+        G_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        G_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        G_4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(G_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 200, 50, 50));
+
+        G_3.setName("G3");
+        G_3.setBackground(new java.awt.Color(0, 0, 0));
+        G_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        G_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        G_3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(G_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 250, 50, 50));
+
+        G_2.setName("G2");
+        G_2.setBackground(new java.awt.Color(255, 255, 255));
+        G_2.setForeground(new java.awt.Color(255, 255, 255));
+        G_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        G_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        G_2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(G_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 300, 50, 50));
+
+        G_1.setName("G1");
+        G_1.setBackground(new java.awt.Color(0, 0, 0));
+        G_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        G_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        G_1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(G_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 350, 50, 50));
+
+        H_8.setName("H8");
+        H_8.setBackground(new java.awt.Color(0, 0, 0));
+        H_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        H_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        H_8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(H_8, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 0, 50, 50));
+
+        H_7.setName("H7");
+        H_7.setBackground(new java.awt.Color(255, 255, 255));
+        H_7.setForeground(new java.awt.Color(255, 255, 255));
+        H_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        H_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        H_7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(H_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 50, 50, 50));
+
+        H_6.setName("H6");
+        H_6.setBackground(new java.awt.Color(0, 0, 0));
+        H_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        H_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        H_6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(H_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 100, 50, 50));
+
+        H_5.setName("H5");
+        H_5.setBackground(new java.awt.Color(255, 255, 255));
+        H_5.setForeground(new java.awt.Color(255, 255, 255));
+        H_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        H_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        H_5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(H_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 150, 50, 50));
+
+        H_4.setName("H4");
+        H_4.setBackground(new java.awt.Color(0, 0, 0));
+        H_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        H_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        H_4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(H_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 200, 50, 50));
+
+        H_3.setName("H3");
+        H_3.setBackground(new java.awt.Color(255, 255, 255));
+        H_3.setForeground(new java.awt.Color(255, 255, 255));
+        H_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        H_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        H_3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(H_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 250, 50, 50));
+
+        H_2.setName("H2");
+        H_2.setBackground(new java.awt.Color(0, 0, 0));
         H_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        H_2.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        H_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         H_2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 A_8MouseClicked(evt);
             }
         });
-        Back.getContentPane().add(H_2);
-        H_2.setBounds(350, 300, 50, 50);
+        back.add(H_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 300, 50, 50));
 
+        H_1.setName("H1");
+        H_1.setBackground(new java.awt.Color(255, 255, 255));
+        H_1.setForeground(new java.awt.Color(255, 255, 255));
+        H_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        H_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        H_1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                A_8MouseClicked(evt);
+            }
+        });
+        back.add(H_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 350, 50, 50));
+
+        background.setName("back");
         background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/project2_estructura/background.png"))); // NOI18N
         background.setFocusable(false);
-        Back.getContentPane().add(background);
-        background.setBounds(0, 0, 400, 400);
+        back.add(background, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -979,40 +1006,42 @@ public class Principal extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 416, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(Back, javax.swing.GroupLayout.PREFERRED_SIZE, 416, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                .addComponent(back, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(310, 310, 310)
                         .addComponent(jButton7)))
-                .addGap(0, 6, Short.MAX_VALUE))
+                .addContainerGap(20, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(12, 12, 12)
                 .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(82, 82, 82)
+                        .addGap(100, 100, 100)
                         .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(39, 39, 39)
                         .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(45, 45, 45)
                         .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(82, 82, 82)
+                        .addGap(100, 100, 100)
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(39, 39, 39)
                         .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(45, 45, 45)
                         .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(Back, javax.swing.GroupLayout.PREFERRED_SIZE, 430, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                    .addGroup(layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(back, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(30, 30, 30)
                 .addComponent(jButton7)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -1054,29 +1083,172 @@ public class Principal extends javax.swing.JFrame {
 
     private void A_8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_A_8MouseClicked
         if (evt.isMetaDown()) {
-            System.out.println("" + evt.getX() + "\n" + evt.getY());
             this.menu.show(evt.getComponent(), evt.getX(), evt.getY());
-            System.out.println("");
             tmp = (JLabel) evt.getComponent();
-            /*System.out.println("" + this.Back.getMousePosition(true).x + "\n" + this.Back.getMousePosition(true).getY());
-            ((JLabel) this.Back.getComponentAt(this.Back.getMousePosition())).setIcon(kingWhite);*/
         }
     }//GEN-LAST:event_A_8MouseClicked
 
     private void addWhiteKingActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addWhiteKingActionPerformed
         if (tmp != null) {
-            if (verify("King")) {
+            if (verify("KingWhite")) {
                 tmp.setIcon(kingWhite);
                 tmp = null;
             }
+        } else {
+            JOptionPane.showMessageDialog(this, "Error\nNo ha Seleccionado un Espacio del Tablero", "Error", JOptionPane.ERROR_MESSAGE);
         }
     }//GEN-LAST:event_addWhiteKingActionPerformed
 
+    private void addWhiteKnightActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addWhiteKnightActionPerformed
+        if (tmp != null) {
+            if (verify("KnightWhite")) {
+                tmp.setIcon(knightWhite);
+                tmp = null;
+            }
+        } else {
+            JOptionPane.showMessageDialog(this, "Error\nNo ha Seleccionado un Espacio del Tablero", "Error", JOptionPane.ERROR_MESSAGE);
+        }
+    }//GEN-LAST:event_addWhiteKnightActionPerformed
+
+    private void addWhitePawnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addWhitePawnActionPerformed
+        if (tmp != null) {
+            if (verify("PawnWhite")) {
+                tmp.setIcon(pawnWhite);
+                tmp = null;
+            }
+        } else {
+            JOptionPane.showMessageDialog(this, "Error\nNo ha Seleccionado un Espacio del Tablero", "Error", JOptionPane.ERROR_MESSAGE);
+        }
+    }//GEN-LAST:event_addWhitePawnActionPerformed
+
+    private void addBlackKingActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addBlackKingActionPerformed
+        if (tmp != null) {
+            if (verify("KingBlack")) {
+                tmp.setIcon(kingBlack);
+                tmp = null;
+            }
+        } else {
+            JOptionPane.showMessageDialog(this, "Error\nNo ha Seleccionado un Espacio del Tablero", "Error", JOptionPane.ERROR_MESSAGE);
+        }
+    }//GEN-LAST:event_addBlackKingActionPerformed
+
+    private void addBlackKnightActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addBlackKnightActionPerformed
+        if (tmp != null) {
+            if (verify("KnightBlack")) {
+                tmp.setIcon(knightWhite);
+                tmp = null;
+            }
+        } else {
+            JOptionPane.showMessageDialog(this, "Error\nNo ha Seleccionado un Espacio del Tablero", "Error", JOptionPane.ERROR_MESSAGE);
+        }
+    }//GEN-LAST:event_addBlackKnightActionPerformed
+
+    private void addBlackPawnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addBlackPawnActionPerformed
+        if (tmp != null) {
+            if (verify("PawnBlack")) {
+                tmp.setIcon(pawnBlack);
+                tmp = null;
+            }
+        } else {
+            JOptionPane.showMessageDialog(this, "Error\nNo ha Seleccionado un Espacio del Tablero", "Error", JOptionPane.ERROR_MESSAGE);
+        }
+    }//GEN-LAST:event_addBlackPawnActionPerformed
+
+    private void removePieceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_removePieceActionPerformed
+        if (tmp != null) {
+            if (tmp.getIcon() != null) {
+                for (int i = 0; i < this.back.getComponents().length; i++) {
+                    if (this.back.getComponents()[i] == tmp) {
+                        ((JLabel) this.back.getComponents()[i]).setIcon(null);
+                    }
+                }
+                tmp = null;
+            }
+        } else {
+            JOptionPane.showMessageDialog(this, "Error\nNo ha Seleccionado un Espacio del Tablero", "Error", JOptionPane.ERROR_MESSAGE);
+        }
+    }//GEN-LAST:event_removePieceActionPerformed
+
+    private Board generar() {
+        Component[] Labels = this.back.getComponents();
+        String name = "";
+        ImageIcon piece = null;
+        for (Component Label: Labels) {
+            
+        }
+        return null;
+    }
+
     private boolean verify(String piece) {
-        Component[] Labels = this.Back.getComponents();
-        System.out.println(this.Back.getComponentCount());
+        Component[] Labels = this.back.getComponents();
+        int Kingw = 0, Kingb = 0, Knightw = 0, Knightb = 0, Pawnw = 0, Pawnb = 0;
+        ImageIcon Image;
         for (Component Label : Labels) {
-            System.out.println(Label.toString());
+            Image = (ImageIcon) ((JLabel) Label).getIcon();
+            if (Image == this.kingWhite) {
+                Kingw++;
+            } else if (Image == this.kingBlack) {
+                Kingb++;
+            } else if (Image == this.knightWhite) {
+                Knightw++;
+            } else if (Image == this.knightBlack) {
+                Knightb++;
+            } else if (Image == this.pawnWhite) {
+                Pawnw++;
+            } else if (Image == this.pawnBlack) {
+                Pawnb++;
+            }
+        }
+        System.out.println(Kingw + "KingWhite\n" + Kingb + "KingBlack\n" + Knightw + "KnightWhite\n" + Knightb + "KnightBlack\n" + Pawnw + "PawnWhite\n" + Pawnb + "PawnBlack\n");
+        switch (piece) {
+            case "KingWhite":{
+                if (Kingw == 0) {
+                    return true;
+                } else {
+                    JOptionPane.showMessageDialog(this, "Ya hay Agregado un Rey Blanco", "Error de Capa 8", JOptionPane.ERROR_MESSAGE);
+                }
+            }
+            break;
+            case "KingBlack":{
+                if (Kingb == 0) {
+                    return true;
+                } else {
+                    JOptionPane.showMessageDialog(this, "Ya hay Agregado un Rey Negro", "Error de Capa 8", JOptionPane.ERROR_MESSAGE);
+                }
+            }
+            break;
+            case "KnightWhite":{
+                if (Knightw < 2) {
+                    return true;
+                } else {
+                    JOptionPane.showMessageDialog(this, "Ya hay Agregado dos Caballos Blancos", "Error de Capa 8", JOptionPane.ERROR_MESSAGE);
+                }
+            }
+            break;
+            case "KnightBlack":{
+                if (Knightb < 2) {
+                    return true;
+                } else {
+                    JOptionPane.showMessageDialog(this, "Ya hay Agregado dos Caballos Negros", "Error de Capa 8", JOptionPane.ERROR_MESSAGE);
+                }
+            }
+            break;
+            case "PawnWhite":{
+                if (Pawnw < 8) {
+                    return true;
+                } else {
+                    JOptionPane.showMessageDialog(this, "Ya hay Agregado ocho Peones Blancos", "Error de Capa 8", JOptionPane.ERROR_MESSAGE);
+                }
+            }
+            break;
+            case "PawnBlack":{
+                if (Pawnb < 8) {
+                    return true;
+                } else {
+                    JOptionPane.showMessageDialog(this, "Ya hay Agregado ocho Peones Negro", "Error de Capa 8", JOptionPane.ERROR_MESSAGE);
+                }
+            }
+            break;
         }
         return false;
     }
@@ -1133,7 +1305,6 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JLabel B_6;
     private javax.swing.JLabel B_7;
     private javax.swing.JLabel B_8;
-    private javax.swing.JInternalFrame Back;
     private javax.swing.JLabel C_1;
     private javax.swing.JLabel C_2;
     private javax.swing.JLabel C_3;
@@ -1189,6 +1360,7 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JMenuItem addWhiteKing;
     private javax.swing.JMenuItem addWhiteKnight;
     private javax.swing.JMenuItem addWhitePawn;
+    private javax.swing.JPanel back;
     private javax.swing.JLabel background;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
