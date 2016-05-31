@@ -13,7 +13,7 @@ public class Board {
     }
 
     public void addPiece(Piece Piece) {
-        this.Pieces[Piece.x][Piece.y] = Piece;
+        this.Pieces[Piece.x - 1][Piece.y - 1] = Piece;
     }
 
     public void removePiece(int x, int y) {
@@ -25,8 +25,13 @@ public class Board {
         String Return = "";
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
-                Return += this.Pieces[i][j];
+                if (this.Pieces[i][j] != null) {
+                    Return += this.Pieces[i][j].toString();
+                } else {
+                    Return += "[null]";
+                }
             }
+            System.out.println("");
         }
         return Return;
     }

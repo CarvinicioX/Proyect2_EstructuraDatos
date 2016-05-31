@@ -55,14 +55,8 @@ public class Principal extends javax.swing.JFrame {
         addBlackKnight = new javax.swing.JMenuItem();
         addBlackPawn = new javax.swing.JMenuItem();
         removePiece = new javax.swing.JMenuItem();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
-        jComboBox1 = new javax.swing.JComboBox();
+        whatToDo = new javax.swing.JComboBox();
         back = new javax.swing.JPanel();
         A_8 = new javax.swing.JLabel();
         A_7 = new javax.swing.JLabel();
@@ -129,6 +123,8 @@ public class Principal extends javax.swing.JFrame {
         H_2 = new javax.swing.JLabel();
         H_1 = new javax.swing.JLabel();
         background = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        maping = new javax.swing.JList<>();
 
         addPiece.setText("Agregar");
 
@@ -197,55 +193,14 @@ public class Principal extends javax.swing.JFrame {
         setMinimumSize(new java.awt.Dimension(680, 552));
         setResizable(false);
 
-        jButton1.setText("Peón Negro");
-        jButton1.setPreferredSize(new java.awt.Dimension(115, 40));
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-
-        jButton2.setText("Caballo Negro");
-        jButton2.setPreferredSize(new java.awt.Dimension(110, 40));
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
-            }
-        });
-
-        jButton3.setText("Rey Negro");
-        jButton3.setPreferredSize(new java.awt.Dimension(110, 40));
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
-            }
-        });
-
-        jButton4.setText("Peón Blanco");
-        jButton4.setPreferredSize(new java.awt.Dimension(115, 40));
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
-            }
-        });
-
-        jButton5.setText("Caballo Blanco");
-        jButton5.setPreferredSize(new java.awt.Dimension(115, 40));
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
-            }
-        });
-
-        jButton6.setText("Rey Blanco");
-        jButton6.setPreferredSize(new java.awt.Dimension(115, 40));
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
-            }
-        });
-
         jButton7.setText("Mapear");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
+
+        whatToDo.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Comer a un Caballo", "Coronar un Peon", "Jaque a un Rey" }));
 
         back.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -990,6 +945,8 @@ public class Principal extends javax.swing.JFrame {
         background.setFocusable(false);
         back.add(background, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
+        jScrollPane1.setViewportView(maping);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -999,87 +956,33 @@ public class Principal extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 416, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(back, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                            .addComponent(back, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(whatToDo, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(310, 310, 310)
-                        .addComponent(jButton7)))
-                .addContainerGap(20, Short.MAX_VALUE))
+                        .addGap(157, 157, 157)
+                        .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 262, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(12, 12, 12)
-                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane1)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(100, 100, 100)
-                        .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(39, 39, 39)
-                        .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(45, 45, 45)
-                        .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(100, 100, 100)
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(39, 39, 39)
-                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(45, 45, 45)
-                        .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(whatToDo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(back, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(30, 30, 30)
-                .addComponent(jButton7)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(back, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButton7)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        if (peonesNegros.size() > 8) {
-            JOptionPane.showMessageDialog(this, "No se pueden poner mas de 8 peones en el tablero", "Limite de Piezas", 0);
-        }
-    }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        if (caballosNegros.size() > 2) {
-            JOptionPane.showMessageDialog(this, "No se pueden poner mas de 2 caballos en el tablero", "Limite de Piezas", 0);
-        }
-    }//GEN-LAST:event_jButton2ActionPerformed
-
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        jButton3.setEnabled(false);
-    }//GEN-LAST:event_jButton3ActionPerformed
-
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        if (peonesBlancos.size() > 8) {
-            JOptionPane.showMessageDialog(this, "No se pueden poner mas de 8 peones en el tablero", "Limite de Piezas", 0);
-        }
-    }//GEN-LAST:event_jButton4ActionPerformed
-
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        if (caballosBlancos.size() > 2) {
-            JOptionPane.showMessageDialog(this, "No se pueden poner mas de 2 caballos en el tablero", "Limite de Piezas", 0);
-        }
-    }//GEN-LAST:event_jButton5ActionPerformed
-
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        jButton6.setEnabled(false);
-    }//GEN-LAST:event_jButton6ActionPerformed
 
     private void A_8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_A_8MouseClicked
         if (evt.isMetaDown()) {
@@ -1135,7 +1038,7 @@ public class Principal extends javax.swing.JFrame {
     private void addBlackKnightActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addBlackKnightActionPerformed
         if (tmp != null) {
             if (verify("KnightBlack")) {
-                tmp.setIcon(knightWhite);
+                tmp.setIcon(knightBlack);
                 tmp = null;
             }
         } else {
@@ -1169,11 +1072,19 @@ public class Principal extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_removePieceActionPerformed
 
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        Board New = generate();
+        System.out.println(New.toString());
+    }//GEN-LAST:event_jButton7ActionPerformed
+
     private Board generate() {
         Board Board = new Board();
         Component[] Labels = this.back.getComponents();
         int x, y;
-        for (Component Label: Labels) {
+        for (Component Label : Labels) {
+            if (Label.getName().equals("back")) {
+                break;
+            }
             x = Integer.parseInt(Label.getName().split("")[0]);
             y = Integer.parseInt(Label.getName().split("")[1]);
             if ((ImageIcon) ((JLabel) Label).getIcon() == this.kingWhite) {
@@ -1189,9 +1100,8 @@ public class Principal extends javax.swing.JFrame {
             } else if ((ImageIcon) ((JLabel) Label).getIcon() == this.pawnBlack) {
                 Board.addPiece(new Pawn(x, y, false));
             }
-            
         }
-        return null;
+        return Board;
     }
 
     private boolean verify(String piece) {
@@ -1215,7 +1125,7 @@ public class Principal extends javax.swing.JFrame {
             }
         }
         switch (piece) {
-            case "KingWhite":{
+            case "KingWhite": {
                 if (Kingw == 0) {
                     return true;
                 } else {
@@ -1223,7 +1133,7 @@ public class Principal extends javax.swing.JFrame {
                 }
             }
             break;
-            case "KingBlack":{
+            case "KingBlack": {
                 if (Kingb == 0) {
                     return true;
                 } else {
@@ -1231,7 +1141,7 @@ public class Principal extends javax.swing.JFrame {
                 }
             }
             break;
-            case "KnightWhite":{
+            case "KnightWhite": {
                 if (Knightw < 2) {
                     return true;
                 } else {
@@ -1239,7 +1149,7 @@ public class Principal extends javax.swing.JFrame {
                 }
             }
             break;
-            case "KnightBlack":{
+            case "KnightBlack": {
                 if (Knightb < 2) {
                     return true;
                 } else {
@@ -1247,7 +1157,7 @@ public class Principal extends javax.swing.JFrame {
                 }
             }
             break;
-            case "PawnWhite":{
+            case "PawnWhite": {
                 if (Pawnw < 8) {
                     return true;
                 } else {
@@ -1255,7 +1165,7 @@ public class Principal extends javax.swing.JFrame {
                 }
             }
             break;
-            case "PawnBlack":{
+            case "PawnBlack": {
                 if (Pawnb < 8) {
                     return true;
                 } else {
@@ -1376,16 +1286,12 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JMenuItem addWhitePawn;
     private javax.swing.JPanel back;
     private javax.swing.JLabel background;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
-    private javax.swing.JComboBox jComboBox1;
+    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JPopupMenu.Separator jSeparator1;
+    private javax.swing.JList<String> maping;
     private javax.swing.JPopupMenu menu;
     private javax.swing.JMenuItem removePiece;
+    private javax.swing.JComboBox whatToDo;
     // End of variables declaration//GEN-END:variables
 }
