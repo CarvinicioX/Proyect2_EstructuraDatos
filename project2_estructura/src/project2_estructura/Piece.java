@@ -36,4 +36,8 @@ public abstract class Piece {
     public String toString() {
         return "[Piece]";
     }
+
+    public Piece[] moves() {
+        return null;
+    }
 }

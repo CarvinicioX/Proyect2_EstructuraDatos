@@ -16,10 +16,6 @@ import javax.swing.JOptionPane;
  */
 public class Principal extends javax.swing.JFrame {
 
-    List caballosBlancos = new List();
-    List caballosNegros = new List();
-    List peonesBlancos = new List();
-    List peonesNegros = new List();
     ImageIcon kingWhite = new ImageIcon("./src/project2_estructura/Kingw.png");
     ImageIcon pawnWhite = new ImageIcon("./src/project2_estructura/Pawnw.png");
     ImageIcon knightWhite = new ImageIcon("./src/project2_estructura/Knightw.png");
@@ -124,7 +120,7 @@ public class Principal extends javax.swing.JFrame {
         H_1 = new javax.swing.JLabel();
         background = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        maping = new javax.swing.JList<>();
+        maping = new javax.swing.JList<String>();
 
         addPiece.setText("Agregar");
 
@@ -204,7 +200,7 @@ public class Principal extends javax.swing.JFrame {
 
         back.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        A_8.setName("18");
+        A_8.setName("00");
         A_8.setBackground(new java.awt.Color(255, 255, 255));
         A_8.setForeground(new java.awt.Color(255, 255, 255));
         A_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -216,7 +212,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(A_8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 50, 50));
 
-        A_7.setName("17");
+        A_7.setName("01");
         A_7.setBackground(new java.awt.Color(0, 0, 0));
         A_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         A_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -227,7 +223,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(A_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 50, 50));
 
-        A_6.setName("16");
+        A_6.setName("02");
         A_6.setBackground(new java.awt.Color(255, 255, 255));
         A_6.setForeground(new java.awt.Color(255, 255, 255));
         A_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -239,7 +235,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(A_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 50, 50));
 
-        A_5.setName("15");
+        A_5.setName("03");
         A_5.setBackground(new java.awt.Color(0, 0, 0));
         A_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         A_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -250,7 +246,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(A_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 50, 50));
 
-        A_4.setName("14");
+        A_4.setName("04");
         A_4.setBackground(new java.awt.Color(255, 255, 255));
         A_4.setForeground(new java.awt.Color(255, 255, 255));
         A_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -262,7 +258,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(A_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 200, 50, 50));
 
-        A_3.setName("13");
+        A_3.setName("05");
         A_3.setBackground(new java.awt.Color(0, 0, 0));
         A_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         A_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -273,7 +269,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(A_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, 50, 50));
 
-        A_2.setName("12");
+        A_2.setName("06");
         A_2.setBackground(new java.awt.Color(255, 255, 255));
         A_2.setForeground(new java.awt.Color(255, 255, 255));
         A_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -285,7 +281,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(A_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 50, 50));
 
-        A_1.setName("11");
+        A_1.setName("07");
         A_1.setBackground(new java.awt.Color(0, 0, 0));
         A_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         A_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -296,7 +292,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(A_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 350, 50, 50));
 
-        B_8.setName("28");
+        B_8.setName("10");
         B_8.setBackground(new java.awt.Color(0, 0, 0));
         B_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         B_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -307,7 +303,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(B_8, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, 50, 50));
 
-        B_7.setName("27");
+        B_7.setName("11");
         B_7.setBackground(new java.awt.Color(255, 255, 255));
         B_7.setForeground(new java.awt.Color(255, 255, 255));
         B_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -319,7 +315,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(B_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 50, 50, 50));
 
-        B_6.setName("26");
+        B_6.setName("12");
         B_6.setBackground(new java.awt.Color(0, 0, 0));
         B_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         B_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -330,7 +326,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(B_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, 50, 50));
 
-        B_5.setName("25");
+        B_5.setName("13");
         B_5.setBackground(new java.awt.Color(255, 255, 255));
         B_5.setForeground(new java.awt.Color(255, 255, 255));
         B_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -342,7 +338,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(B_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, 50, 50));
 
-        B_4.setName("24");
+        B_4.setName("14");
         B_4.setBackground(new java.awt.Color(0, 0, 0));
         B_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         B_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -353,7 +349,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(B_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 200, 50, 50));
 
-        B_3.setName("23");
+        B_3.setName("15");
         B_3.setBackground(new java.awt.Color(255, 255, 255));
         B_3.setForeground(new java.awt.Color(255, 255, 255));
         B_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -365,7 +361,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(B_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 250, 50, 50));
 
-        B_2.setName("22");
+        B_2.setName("16");
         B_2.setBackground(new java.awt.Color(0, 0, 0));
         B_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         B_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -376,7 +372,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(B_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 300, 50, 50));
 
-        B_1.setName("21");
+        B_1.setName("17");
         B_1.setBackground(new java.awt.Color(255, 255, 255));
         B_1.setForeground(new java.awt.Color(255, 255, 255));
         B_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -388,7 +384,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(B_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 350, 50, 50));
 
-        C_8.setName("38");
+        C_8.setName("20");
         C_8.setBackground(new java.awt.Color(255, 255, 255));
         C_8.setForeground(new java.awt.Color(255, 255, 255));
         C_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -400,7 +396,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(C_8, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 0, 50, 50));
 
-        C_7.setName("37");
+        C_7.setName("21");
         C_7.setBackground(new java.awt.Color(0, 0, 0));
         C_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         C_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -411,7 +407,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(C_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, 50, 50));
 
-        C_6.setName("36");
+        C_6.setName("22");
         C_6.setBackground(new java.awt.Color(255, 255, 255));
         C_6.setForeground(new java.awt.Color(255, 255, 255));
         C_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -423,7 +419,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(C_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 100, 50, 50));
 
-        C_5.setName("35");
+        C_5.setName("23");
         C_5.setBackground(new java.awt.Color(0, 0, 0));
         C_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         C_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -434,7 +430,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(C_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 150, 50, 50));
 
-        C_4.setName("34");
+        C_4.setName("24");
         C_4.setBackground(new java.awt.Color(255, 255, 255));
         C_4.setForeground(new java.awt.Color(255, 255, 255));
         C_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -446,7 +442,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(C_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, 50, 50));
 
-        C_3.setName("33");
+        C_3.setName("25");
         C_3.setBackground(new java.awt.Color(0, 0, 0));
         C_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         C_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -457,7 +453,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(C_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 250, 50, 50));
 
-        C_2.setName("32");
+        C_2.setName("26");
         C_2.setBackground(new java.awt.Color(255, 255, 255));
         C_2.setForeground(new java.awt.Color(255, 255, 255));
         C_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -469,7 +465,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(C_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 300, 50, 50));
 
-        C_1.setName("31");
+        C_1.setName("27");
         C_1.setBackground(new java.awt.Color(0, 0, 0));
         C_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         C_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -480,7 +476,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(C_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 350, 50, 50));
 
-        D_8.setName("48");
+        D_8.setName("30");
         D_8.setBackground(new java.awt.Color(0, 0, 0));
         D_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         D_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -491,7 +487,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(D_8, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 0, 50, 50));
 
-        D_7.setName("47");
+        D_7.setName("31");
         D_7.setBackground(new java.awt.Color(255, 255, 255));
         D_7.setForeground(new java.awt.Color(255, 255, 255));
         D_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -503,7 +499,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(D_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 50, 50, 50));
 
-        D_6.setName("46");
+        D_6.setName("32");
         D_6.setBackground(new java.awt.Color(0, 0, 0));
         D_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         D_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -514,7 +510,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(D_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 100, 50, 50));
 
-        D_5.setName("45");
+        D_5.setName("33");
         D_5.setBackground(new java.awt.Color(255, 255, 255));
         D_5.setForeground(new java.awt.Color(255, 255, 255));
         D_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -526,7 +522,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(D_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 150, 50, 50));
 
-        D_4.setName("44");
+        D_4.setName("34");
         D_4.setBackground(new java.awt.Color(0, 0, 0));
         D_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         D_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -537,7 +533,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(D_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 200, 50, 50));
 
-        D_3.setName("43");
+        D_3.setName("35");
         D_3.setBackground(new java.awt.Color(255, 255, 255));
         D_3.setForeground(new java.awt.Color(255, 255, 255));
         D_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -549,7 +545,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(D_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 250, 50, 50));
 
-        D_2.setName("42");
+        D_2.setName("36");
         D_2.setBackground(new java.awt.Color(0, 0, 0));
         D_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         D_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -560,7 +556,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(D_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 300, 50, 50));
 
-        D_1.setName("41");
+        D_1.setName("37");
         D_1.setBackground(new java.awt.Color(255, 255, 255));
         D_1.setForeground(new java.awt.Color(255, 255, 255));
         D_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -572,7 +568,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(D_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 350, 50, 50));
 
-        E_8.setName("58");
+        E_8.setName("40");
         E_8.setBackground(new java.awt.Color(255, 255, 255));
         E_8.setForeground(new java.awt.Color(255, 255, 255));
         E_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -584,7 +580,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(E_8, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 0, 50, 50));
 
-        E_7.setName("57");
+        E_7.setName("41");
         E_7.setBackground(new java.awt.Color(0, 0, 0));
         E_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         E_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -595,7 +591,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(E_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 50, 50, 50));
 
-        E_6.setName("56");
+        E_6.setName("42");
         E_6.setBackground(new java.awt.Color(255, 255, 255));
         E_6.setForeground(new java.awt.Color(255, 255, 255));
         E_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -607,7 +603,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(E_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 100, 50, 50));
 
-        E_5.setName("55");
+        E_5.setName("43");
         E_5.setBackground(new java.awt.Color(0, 0, 0));
         E_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         E_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -618,7 +614,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(E_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 150, 50, 50));
 
-        E_4.setName("54");
+        E_4.setName("44");
         E_4.setBackground(new java.awt.Color(255, 255, 255));
         E_4.setForeground(new java.awt.Color(255, 255, 255));
         E_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -630,7 +626,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(E_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 200, 50, 50));
 
-        E_3.setName("53");
+        E_3.setName("45");
         E_3.setBackground(new java.awt.Color(0, 0, 0));
         E_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         E_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -641,7 +637,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(E_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 250, 50, 50));
 
-        E_2.setName("52");
+        E_2.setName("46");
         E_2.setBackground(new java.awt.Color(255, 255, 255));
         E_2.setForeground(new java.awt.Color(255, 255, 255));
         E_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -653,7 +649,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(E_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 300, 50, 50));
 
-        E_1.setName("51");
+        E_1.setName("47");
         E_1.setBackground(new java.awt.Color(0, 0, 0));
         E_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         E_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -664,7 +660,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(E_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 350, 50, 50));
 
-        F_8.setName("68");
+        F_8.setName("50");
         F_8.setBackground(new java.awt.Color(0, 0, 0));
         F_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         F_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -675,7 +671,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(F_8, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 0, 50, 50));
 
-        F_7.setName("67");
+        F_7.setName("51");
         F_7.setBackground(new java.awt.Color(255, 255, 255));
         F_7.setForeground(new java.awt.Color(255, 255, 255));
         F_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -687,7 +683,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(F_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 50, 50, 50));
 
-        F_6.setName("66");
+        F_6.setName("52");
         F_6.setBackground(new java.awt.Color(0, 0, 0));
         F_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         F_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -698,7 +694,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(F_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 100, 50, 50));
 
-        F_5.setName("65");
+        F_5.setName("53");
         F_5.setBackground(new java.awt.Color(255, 255, 255));
         F_5.setForeground(new java.awt.Color(255, 255, 255));
         F_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -710,7 +706,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(F_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 150, 50, 50));
 
-        F_4.setName("64");
+        F_4.setName("54");
         F_4.setBackground(new java.awt.Color(0, 0, 0));
         F_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         F_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -721,7 +717,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(F_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 200, 50, 50));
 
-        F_3.setName("63");
+        F_3.setName("55");
         F_3.setBackground(new java.awt.Color(255, 255, 255));
         F_3.setForeground(new java.awt.Color(255, 255, 255));
         F_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -733,7 +729,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(F_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 250, 50, 50));
 
-        F_2.setName("62");
+        F_2.setName("56");
         F_2.setBackground(new java.awt.Color(0, 0, 0));
         F_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         F_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -744,7 +740,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(F_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 300, 50, 50));
 
-        F_1.setName("61");
+        F_1.setName("57");
         F_1.setBackground(new java.awt.Color(255, 255, 255));
         F_1.setForeground(new java.awt.Color(255, 255, 255));
         F_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -756,7 +752,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(F_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 350, 50, 50));
 
-        G_8.setName("78");
+        G_8.setName("60");
         G_8.setBackground(new java.awt.Color(255, 255, 255));
         G_8.setForeground(new java.awt.Color(255, 255, 255));
         G_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -768,7 +764,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(G_8, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 0, 50, 50));
 
-        G_7.setName("77");
+        G_7.setName("61");
         G_7.setBackground(new java.awt.Color(0, 0, 0));
         G_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         G_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -779,7 +775,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(G_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 50, 50, 50));
 
-        G_6.setName("76");
+        G_6.setName("62");
         G_6.setBackground(new java.awt.Color(255, 255, 255));
         G_6.setForeground(new java.awt.Color(255, 255, 255));
         G_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -791,7 +787,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(G_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 100, 50, 50));
 
-        G_5.setName("75");
+        G_5.setName("63");
         G_5.setBackground(new java.awt.Color(0, 0, 0));
         G_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         G_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -802,7 +798,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(G_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 150, 50, 50));
 
-        G_4.setName("74");
+        G_4.setName("64");
         G_4.setBackground(new java.awt.Color(255, 255, 255));
         G_4.setForeground(new java.awt.Color(255, 255, 255));
         G_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -814,7 +810,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(G_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 200, 50, 50));
 
-        G_3.setName("73");
+        G_3.setName("65");
         G_3.setBackground(new java.awt.Color(0, 0, 0));
         G_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         G_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -825,7 +821,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(G_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 250, 50, 50));
 
-        G_2.setName("72");
+        G_2.setName("66");
         G_2.setBackground(new java.awt.Color(255, 255, 255));
         G_2.setForeground(new java.awt.Color(255, 255, 255));
         G_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -837,7 +833,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(G_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 300, 50, 50));
 
-        G_1.setName("71");
+        G_1.setName("67");
         G_1.setBackground(new java.awt.Color(0, 0, 0));
         G_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         G_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -848,7 +844,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(G_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 350, 50, 50));
 
-        H_8.setName("88");
+        H_8.setName("70");
         H_8.setBackground(new java.awt.Color(0, 0, 0));
         H_8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         H_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -859,7 +855,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(H_8, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 0, 50, 50));
 
-        H_7.setName("87");
+        H_7.setName("71");
         H_7.setBackground(new java.awt.Color(255, 255, 255));
         H_7.setForeground(new java.awt.Color(255, 255, 255));
         H_7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -871,7 +867,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(H_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 50, 50, 50));
 
-        H_6.setName("86");
+        H_6.setName("72");
         H_6.setBackground(new java.awt.Color(0, 0, 0));
         H_6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         H_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -882,7 +878,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(H_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 100, 50, 50));
 
-        H_5.setName("85");
+        H_5.setName("73");
         H_5.setBackground(new java.awt.Color(255, 255, 255));
         H_5.setForeground(new java.awt.Color(255, 255, 255));
         H_5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -894,7 +890,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(H_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 150, 50, 50));
 
-        H_4.setName("84");
+        H_4.setName("74");
         H_4.setBackground(new java.awt.Color(0, 0, 0));
         H_4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         H_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -905,7 +901,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(H_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 200, 50, 50));
 
-        H_3.setName("83");
+        H_3.setName("75");
         H_3.setBackground(new java.awt.Color(255, 255, 255));
         H_3.setForeground(new java.awt.Color(255, 255, 255));
         H_3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -917,7 +913,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(H_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 250, 50, 50));
 
-        H_2.setName("82");
+        H_2.setName("76");
         H_2.setBackground(new java.awt.Color(0, 0, 0));
         H_2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         H_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -928,7 +924,7 @@ public class Principal extends javax.swing.JFrame {
         });
         back.add(H_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 300, 50, 50));
 
-        H_1.setName("81");
+        H_1.setName("77");
         H_1.setBackground(new java.awt.Color(255, 255, 255));
         H_1.setForeground(new java.awt.Color(255, 255, 255));
         H_1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -1073,20 +1069,41 @@ public class Principal extends javax.swing.JFrame {
     }//GEN-LAST:event_removePieceActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        Board New = generate();
-        System.out.println(New.toString());
+        Board New = null;
+        if (this.verify("King")) {
+            if (this.whatToDo.getSelectedIndex() == 0) {//Comer a un Caballo
+                if (this.verify("Knight")) {
+                    New = generate();
+                    System.out.println(New);
+                }
+            } else if (this.whatToDo.getSelectedIndex() == 1) {//Coronar a un Peón
+                if (this.verify("Pawn")) {
+                    New = generate();
+                    System.out.println(New);
+                }
+            } else if (this.whatToDo.getSelectedIndex() == 2) {//Jaque a un Rey
+                if (this.verify("King")) {
+                    New = generate();
+                    System.out.println(New);
+                    New.moves(true);
+                }
+            }
+        }
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private Board generate() {
         Board Board = new Board();
         Component[] Labels = this.back.getComponents();
         int x, y;
+        String[] Pos = new String[2];
         for (Component Label : Labels) {
             if (Label.getName().equals("back")) {
                 break;
             }
-            x = Integer.parseInt(Label.getName().split("")[0]);
-            y = Integer.parseInt(Label.getName().split("")[1]);
+            Pos[0] = Label.getName().charAt(0) + "";
+            Pos[1] = Label.getName().charAt(1) + "";
+            x = Integer.parseInt(Pos[0]);
+            y = Integer.parseInt(Pos[1]);
             if ((ImageIcon) ((JLabel) Label).getIcon() == this.kingWhite) {
                 Board.addPiece(new King(x, y, true));
             } else if ((ImageIcon) ((JLabel) Label).getIcon() == this.kingBlack) {
@@ -1169,10 +1186,34 @@ public class Principal extends javax.swing.JFrame {
                 if (Pawnb < 8) {
                     return true;
                 } else {
-                    JOptionPane.showMessageDialog(this, "Ya hay Agregado ocho Peones Negro", "Error de Capa 8", JOptionPane.ERROR_MESSAGE);
+                    JOptionPane.showMessageDialog(this, "Ya hay Agregado ocho Peones Negros", "Error de Capa 8", JOptionPane.ERROR_MESSAGE);
                 }
             }
             break;
+            case "King": {
+                if (Kingb == 1 && Kingw == 1) {
+                    return true;
+                } else {
+                    JOptionPane.showMessageDialog(this, "No hay Suficientes Piezas\nAgregue otro Rey", "Error de Capa 8", JOptionPane.ERROR_MESSAGE);
+                }
+                break;
+            }
+            case "Pawn": {
+                if (Pawnw > 0 || Pawnb > 0) {
+                    return true;
+                } else {
+                    JOptionPane.showMessageDialog(this, "No hay Suficientes Piezas\nAgregue otro Peón", "Error de Capa 8", JOptionPane.ERROR_MESSAGE);
+                }
+                break;
+            }
+            case "Knight": {
+                if (Knightw > 0 || Knightb > 0) {
+                    return true;
+                } else {
+                    JOptionPane.showMessageDialog(this, "No hay Suficientes Piezas\nAgregue otro Caballo", "Error de Capa 8", JOptionPane.ERROR_MESSAGE);
+                }
+                break;
+            }
         }
         return false;
     }
